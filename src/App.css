@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.div{
+  width: 400px;
+  height: 200px;
+  gap: 10px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper{
+  background: black;
+  display: flex;
+  color: yellow;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  /* background: #61dafb; */
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border: 1px solid yellow;
+  font-family: cursive;
+}
+.btn{
+  border-radius: 5px;
+  margin-top: 10px;
+  background: #61dafb00;
+  border: 1px solid yellow;
+  
+  cursor: pointer;
+  outline: none;
+  width: 120px;
+  color: yellow;
+  height: 30px;
+}
+.btn:hover{
+  color: black;
+  background: yellow;
+  transition: 1.5s;
+}
+.win{
+  background: yellow;
+  color: black;
+}
